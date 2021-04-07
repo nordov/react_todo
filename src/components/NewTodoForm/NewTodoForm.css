@@ -1,0 +1,30 @@
+.new-todo-form {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px -3px dimgrey;
+}
+
+.new-todo-form input {
+    width: 70%;
+    font-size: 24px;
+    color: dimgrey;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+}
+
+.new-todo-form button {
+    width: 25%;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 7.5px;
+    color: white;
+    background: steelblue;
+
+}
