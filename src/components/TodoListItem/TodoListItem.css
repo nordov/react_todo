@@ -1,0 +1,37 @@
+.todo-item-container {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 16px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px -3px dimgrey;
+}
+
+.todo-item-container .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+.buttons-container button {
+    box-sizing: border-box;
+    max-height: 50%;
+    margin: auto;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid grey;
+    border-radius: 7.5px;
+    outline: none;
+    color: white;
+    background: steelblue;
+}
+
+.buttons-container button:hover{
+    color: steelblue;
+    background: gold;
+}

@@ -3,6 +3,7 @@
     justify-content: space-between;
     width: 100%;
     padding: 24px;
+    margin-bottom: 16px;
     box-sizing: border-box;
     border: 1px solid grey;
     border-radius: 15px;
@@ -17,14 +18,19 @@
     border-right: none;
     border-left: none;
     outline: none;
-}
+}ppppp
 
 .new-todo-form button {
     width: 25%;
     font-size: 16px;
     font-weight: 700;
     border-radius: 7.5px;
+    outline: none;
     color: white;
     background: steelblue;
+}
 
+.new-todo-form button:hover{
+    color: steelblue;
+    background: gold;
 }
